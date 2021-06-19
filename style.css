@@ -149,3 +149,11 @@ background-image: url("h_img.jpg");
     color: #000000
 
 }
+.services{
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    margin-top: 75%;
+    background-repeat: no-repeat;
+    background: url(s_image.jpg);
+}
