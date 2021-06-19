@@ -157,3 +157,58 @@ background-image: url("h_img.jpg");
     background-repeat: no-repeat;
     background: url(s_image.jpg);
 }
+.servicesh1{
+    position: absolute;
+    width: 240px;
+    height: 44px;
+    margin-left: 48%;
+    margin-top: 10%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.servicessentence1{
+    position: absolute;
+    width: 1074px;
+    height: 33px;
+    margin-left: 25%;
+    margin-top: 17%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+.servicessentence2{
+    position: absolute;
+    width: 1074px;
+    height: 33px;
+    margin-left: 35%;
+    margin-top: 19%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
+.servicessentence3{
+    position: absolute;
+    width: 1074px;
+    height: 33px;
+    margin-left: 32%;
+    margin-top: 21%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+}
