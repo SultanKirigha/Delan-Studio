@@ -2,8 +2,8 @@
 This is a Delani Studio site to showcase my proffessional and non-professional competencies.
 It contains a general description of The work, background and contact information.
 ## Table of contents
-* [Project Name](#Delani Studio)
-* [Author](#Sultan Kirigha)
+* [Project Name]()
+* [Author]()
 * [Description_of_Project]()
 * [Project setup instructions](#technologies)
 * [How it Works](#instructions)
