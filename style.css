@@ -404,3 +404,101 @@ background-image: url("h_img.jpg");
     box-sizing: border-box;
     border: 1px solid white
 }
+.twitter{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 205%;
+    margin-left: 36%;
+    background: url(twitter.png) no-repeat;
+}
+.dribble{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 205%;
+    margin-left: 39%;
+    background: url(dribble.png) no-repeat;
+}
+.facebook{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 205%;
+    margin-left: 42%;
+    background: url(facebook.png) no-repeat;
+}
+.g_plus{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 205%;
+    margin-left: 45%;
+    background: url(g_plus.png) no-repeat;
+}
+.skype{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 205%;
+    margin-left: 48%;
+    background: url(skype.png) no-repeat;
+}
+.stumble_upon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 205%;
+    margin-left: 51%;
+    background: url(stumble_upon.png) no-repeat;
+}
+.behance{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 205%;
+    margin-left: 54%;
+    background: url(behance.png) no-repeat;
+}
+.pinterest{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 205%;
+    margin-left: 57%;
+    background: url(pinterest.png) no-repeat;
+}
+.flickr{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: 205%;
+    margin-left: 60%;
+    background: url(flickr.png) no-repeat;
+}
+.copyright{
+    margin-left: 45%;
+    position: absolute;
+    width: 241px;
+    height: 86px;
+    margin-top: 210%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 36px;
+    color: #000000;
+}
+.copyright1{
+    margin-left: 50%;
+    position: absolute;
+    width: 241px;
+    height: 86px;
+    margin-top: 212%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 31px;
+    line-height: 36px;
+    color: #000000;
+}
