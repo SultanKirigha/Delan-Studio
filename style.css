@@ -37,7 +37,7 @@ background-image: url("h_img.jpg");
     position: absolute;
     width: 436px;
     height: 57px;
-    margin-top: 24%;
+    margin-top: 26%;
     margin-left: 43%;
     font-family: Roboto;
     font-style: normal;
@@ -48,14 +48,14 @@ background-image: url("h_img.jpg");
 }
 .top{
     position: absolute;
-    width: 584px;
+    width: 610px;
     height: 23px;
     margin-left: 37%;
-    margin-top: 28%;
-    font-family: Roboto;
+    margin-top: 29%;
+    font-family: Ro29%boto;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
 }
@@ -300,70 +300,149 @@ background-image: url("h_img.jpg");
 }
 .portfolio{
     position: absolute;
-    width: 262px;
-    height: 59px;
-    font-family: Roboto;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 1020px;
+    height: 100%;
+    margin: 25% 5%;
+
+    /*font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 19px;
     line-height: 59px;
     color: #000000;
     margin-left: 48%;
-    margin-top: 20%;
+    margin-top: 20%;*/
+}
+.portfolio .box{
+     display: inline-block;
+     position: relative;
+     list-style: none;
+     margin-top: -4%;
+     width: 180px;
+     height: 250px;
+}
+.portfolio .box img{
+    width: 100%;
+}
+.portfolio .box.snaake{
+    position: relative;
+}
+.project1:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: white;
+      }
+.project2:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: white;
+          }
+.project3:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: white;
+        }
+.project4:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: white;
+        }
+.project5:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+        }
+.project6:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: white;
+        }
+.project7:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: white;
+        }
+.project8:hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .1s ease;
+    background-color: white;
+        }
 
-
-}
-.project1{
-    position: absolute;
-    width: 250px;
-    height: 216px;
-    margin-left: -250%;
-}
-.project2{
-    position: absolute;
-    width: 250px;
-    height: 216px;
-    margin-left: -105%;
-}
-.project3{
-    position: absolute;
-    width: 250px;
-    height: 216px;
-    margin-left: 35%;
-}
-.project4{
-    position: absolute;
-    width: 250px;
-    height: 216px;
-    margin-left: 175%;
-}
-.project5{
-    position: absolute;
-    width: 250px;
-    height: 216px;
-    margin-left: -250%;
-    margin-top: 130%;
-}
-.project6{
-    position: absolute;
-    width: 250px;
-    height: 216px;
-    margin-left: -105%;
-    margin-top: 130%;
-}
-.project7{
-    position: absolute;
-    width: 250px;
-    height: 216px;
-    margin-left: 35%;
-    margin-top: 130%;
-}
-.project8{
-    position: absolute;
-    width: 250px;
-    height: 216px;
-    margin-left: 175%;
-    margin-top: 130%;
+.portfolio:hover .image {
+    opacity: 0.3;
+  }
+  
+  .portfolio:hover .overlay {
+    opacity: 1;
+  }
+  
+  .box{
+    background-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+.portfolio .box:hover .snake img{
+    transform: scale(1.2);
 }
 .backgroundimage-ContactUs{
     position: absolute;
