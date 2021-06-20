@@ -313,3 +313,55 @@ background-image: url("h_img.jpg");
 
 
 }
+.project1{
+    position: absolute;
+    width: 250px;
+    height: 216px;
+    margin-left: -250%;
+}
+.project2{
+    position: absolute;
+    width: 250px;
+    height: 216px;
+    margin-left: -105%;
+}
+.project3{
+    position: absolute;
+    width: 250px;
+    height: 216px;
+    margin-left: 35%;
+}
+.project4{
+    position: absolute;
+    width: 250px;
+    height: 216px;
+    margin-left: 175%;
+}
+.project5{
+    position: absolute;
+    width: 250px;
+    height: 216px;
+    margin-left: -250%;
+    margin-top: 130%;
+}
+.project6{
+    position: absolute;
+    width: 250px;
+    height: 216px;
+    margin-left: -105%;
+    margin-top: 130%;
+}
+.project7{
+    position: absolute;
+    width: 250px;
+    height: 216px;
+    margin-left: 35%;
+    margin-top: 130%;
+}
+.project8{
+    position: absolute;
+    width: 250px;
+    height: 216px;
+    margin-left: 175%;
+    margin-top: 130%;
+}
