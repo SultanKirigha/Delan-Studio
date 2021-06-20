@@ -365,3 +365,42 @@ background-image: url("h_img.jpg");
     margin-left: 175%;
     margin-top: 130%;
 }
+.backgroundimage-ContactUs{
+    position: absolute;
+    width: 100vw;
+    height: 527px;
+    margin-top: 170%;
+    background: url(c_image.jpg);
+}
+#Name{
+    position: absolute;
+    width: 750px;
+    height: 55px;
+    margin-top: 5%;
+    margin-left: 3%;
+    opacity: 0.3;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+#Email{
+    position: absolute;
+    width: 750px;
+    height: 55px;
+    margin-top: 5%;
+    margin-left: 51%;
+    opacity: 0.3;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+#textarea{
+    width: 1000px;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 20%;
+    opacity: 0.3;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1px solid white
+}
