@@ -223,11 +223,93 @@ background-image: url("h_img.jpg");
     position: absolute;
     width: 327px;
     height: 59px;
-    margin-left: 46%;
+    margin-left: 45%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
     line-height: 59px;
     color: #000000;
+}
+.design{
+    position: absolute;
+    width: 80px;
+    height: 14vh;
+    background: url(design_icon.png);
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.design1{
+    position: absolute;
+    width: 71px;
+    height: 27px;
+    margin-top: 110%;
+    margin-left: 10%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+}
+.development{
+    position: absolute;
+    width: 79px;
+    height: 9vh;
+    margin-left: 50%;
+    margin-top: 10%;
+    background: url(dev_icon.png);
+    border-radius: 4px;
+}
+.development1{
+    position: absolute;
+    width: 137px;
+    height: 27px;
+    margin-top: 110%;
+    margin-left: -38%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+
+}
+.productmanagement{
+    position: absolute;
+    width: 79px;
+    background-repeat: no-repeat;
+    height: 10.5vh;
+    background: url(product_icon.png);
+    margin-left: 75%;
+    margin-top: 10%;
+}
+.productmanagement1{
+    position: absolute;
+    width: 240px;
+    height: 27px;
+    margin-top: 120%;
+    margin-left: -100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 22px;
+    color: #000000;
+}
+.portfolio{
+    position: absolute;
+    width: 262px;
+    height: 59px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 59px;
+    color: #000000;
+    margin-left: 48%;
+    margin-top: 20%;
+
+
 }
