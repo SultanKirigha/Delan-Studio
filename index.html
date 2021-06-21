@@ -35,23 +35,23 @@
     </div>
     <div class="what_we_do">
         <h1 class="what_we_do_h1">WHAT WE DO</h1>
-        <div class="design">
+        <div class="design" style="margin-top: 5%;">
             <i class="fas fa-bars m-5" style="font-size: 60px;"><img src="design_icon.png" alt="" id="fig1"></i>
-            <figcaption class="figure-caption"style="margin-left:76%;">DESIGN.</figcaption>
+            <figcaption id="caption1" class="figure-caption"style="margin-left:76%;">DESIGN.</figcaption>
             <p id="design2" style="margin-top: 10%;margin-left: -35%;width: 250px; display: none;">
                 <b style="margin-left: 30%; font-size: 25px;">DESIGN</b><br>
                 Our design practice offers a full range of services including brand strategy,interaction and visual design and expirence testing.Throughout your project, designers create and implement visual design and workflow,user feedback and work with you to make What gets built is what is needed.</p>
         </div>
-        <div class="development">
-            <i class="fas fa-bars m-5" style="font-size: 60px;"><img src="dev_icon.png" alt="" id="fig1"></i>
-            <figcaption class="figure-caption"style="margin-left:40%;">DEVELOPMENT</figcaption>
+        <div class="development"style="margin-top: 5%;">
+            <i class="fas fa-bars m-5" style="font-size: 60px;"><img src="dev_icon.png" alt="" id="fig2"></i>
+            <figcaption id="caption2" class="figure-caption"style="margin-left:40%;">DEVELOPMENT</figcaption>
             <p id="development2" style="margin-top: 5%;width: 300px;margin-left: -100%;display: none;">
                 <b style="margin-left: 10%; font-size: 25px;">DEVELOPMENT</b><br>
                 All engineers are fluent in the latest enterprise,mobile and web development technologies.They collaborate with your team to write,and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
         </div>
-        <div class="productmanagement">
-            <i class="fas fa-bars m-5" style="font-size: 60px;"><img src="product_icon.png" alt="" id="fig1"></i>
-            <figcaption class="figure-caption"style="margin-left:40%;">DEVELOPMENT</figcaption>
+        <div class="productmanagement"style="margin-top: 5%;">
+            <i class="fas fa-bars m-5" style="font-size: 60px;"><img src="product_icon.png" alt="" id="fig3"></i>
+            <figcaption id="caption3" class="figure-caption"style="margin-left:40%;">DEVELOPMENT</figcaption>
             <p id="productmanagement2" style="width: 300%;margin-top: 10%;margin-left: -34%;display: none;">
                 <b style="margin-left: 10%; font-size: 25px;">DEVELOPMENT</b><br>
                 Planning and development is iterative.Because we are constantly coding and testing,the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
@@ -120,6 +120,19 @@
             },
             function()
             {$(this).animate({"opacity":1},500)});
+            });
+            
+
+            $("#fig1").click(function(){
+                $("#design2").show() && $("#fig1").hide() && $("#caption1").hide();
+            });
+            $("#fig2").click(function(){
+                $("#development2").show() && $("#fig2").hide() && $("#caption2").hide();
+            });
+            $("#fig3").click(function(){
+                $("#productmanagement2").show()&&  $("#fig3").hide() && $("#caption3").hide();{
+                }
+                
             });
         </script>
 
