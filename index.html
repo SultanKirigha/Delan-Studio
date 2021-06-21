@@ -97,13 +97,30 @@
             </div>
     </div>
     <div class="backgroundimage-ContactUs">
-        <form>
-            <input type="text" id="Name" name="Name" placeholder=" Name...">
-            <input type="text" id="Email" name="Email"placeholder=" Email...">
-            <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder=" Your message here..."></textarea>
-    </div>
-    <div class="footer" style="margin-top: -97%;">
-        <div>
+        <div class="contact">
+            <div class="container form-info">
+                <h3 style="margin-left: 40%;font-size: 250%;">CONTACT US</h3>
+                <div class="form">
+                    <form action="" id="theform">
+                        <div class="row">
+                            <div class="col-6 ">
+                                <label for="exampleFormControlInput1" class="form-label"></label>
+                                <input type="name" class="form-control" id="name" required placeholder="Name...">
+                            </div>
+                            <div class="col-6">
+                                <label for="exampleFormControlInput1" class="form-label"></label>
+                                <input type="email" class="form-control form" id="email" required placeholder="Email...">
+                            </div>
+                        </div>
+                            <label for="exampleFormControlTextarea1" class="form-label"></label>
+                            <textarea id="message" class="form-control" placeholder="Your message here..." rows="7" spellcheck="false" style="margin-top: 10%;opacity: 0.3;font-size: 23px;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-light col-md-1" style="margin-left: 45%;background-color: gray;">Submit</button>
+                    </form>
+                </div>
+            </div>        
+        </div>
+        <div style="margin-top: -97%;">
             <img src="twitter.png" alt="twitter" class="twitter">
             <img src="dribble.png" alt="dribble" class="dribble">
             <img src="facebook.png" alt="facebook" class="facebook">

@@ -443,29 +443,30 @@ background-image: url("h_img.jpg");
     margin-top: 10%;
     opacity: 0.3;
     }
-#Name{
+#name{
     position: absolute;
     width: 750px;
     height: 55px;
     margin-top: 5%;
-    margin-left: 3%;
+    margin-left: -43%;
     opacity: 0.3;
     font-size: 20px;
     box-sizing: border-box;
     border: 1px solid white;
 }
-#Email{
+#email{
     position: absolute;
-    width: 750px;
+    width: 621px;
     height: 55px;
     margin-top: 5%;
-    margin-left: 51%;
+    margin-left: 23%;
     opacity: 0.3;
     font-size: 20px;
     box-sizing: border-box;
     border: 1px solid white;
 }
-#textarea{
+}
+#message{
     width: 1000px;
     height: 300px;
     margin-top: 10%;
