@@ -369,6 +369,7 @@ background-image: url("h_img.jpg");
     margin-left: -70%;
     margin-top: -21%;
     font-size: 49px;
+    opacity: 0.3;
   }
 .project2 {
     position: absolute;
@@ -378,6 +379,7 @@ background-image: url("h_img.jpg");
     margin-left: -30%;
     margin-top: -21%;
     font-size: 49px;
+    opacity: 0.3;
     }
 .project3 {
     position: absolute;
@@ -387,6 +389,7 @@ background-image: url("h_img.jpg");
     margin-left: 11%;
     margin-top: -21%;
     font-size: 49px;
+    opacity: 0.3;
     }
 .project4 {
     position: absolute;
@@ -396,6 +399,7 @@ background-image: url("h_img.jpg");
     margin-left: 50%;
     margin-top: -21%;
     font-size: 49px;
+    opacity: 0.3;
     }
 .project5 {
     position: absolute;
@@ -405,6 +409,7 @@ background-image: url("h_img.jpg");
     margin-left: -73%;
     margin-top: 10%;
     font-size: 49px;
+    opacity: 0.3;
     }
 .project6 {
     position: absolute;
@@ -414,6 +419,7 @@ background-image: url("h_img.jpg");
     margin-left: -30%;
     margin-top: 10%;
     font-size: 49px;
+    opacity: 0.3;
     }
 .project7 {
     position: absolute;
@@ -423,6 +429,7 @@ background-image: url("h_img.jpg");
     margin-left: 10%;
     margin-top: 10%;
     font-size: 49px;
+    opacity: 0.3;
     }
 .project8 {
     position: absolute;
@@ -434,6 +441,7 @@ background-image: url("h_img.jpg");
     display: flex;
     width: -194px;
     margin-top: 10%;
+    opacity: 0.3;
     }
 #Name{
     position: absolute;
