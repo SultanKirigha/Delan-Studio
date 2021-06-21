@@ -101,8 +101,6 @@
             <input type="text" id="Name" name="Name" placeholder=" Name...">
             <input type="text" id="Email" name="Email"placeholder=" Email...">
             <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder=" Your message here..."></textarea>
-            <button style="width: 250px;background-color: green;margin-top: 29%;margin-left: -35%;position: absolute;">submit</button>
-          </form>
     </div>
     <div class="footer" style="margin-top: -97%;">
         <div>
@@ -133,14 +131,22 @@
             $("#fig1").click(function(){
                 $("#design2").show() && $("#fig1").hide() && $("#caption1").hide();
             });
+            $("#design2").click(function(){
+                $("#design2").hide() && $("#fig1").show() && $("#caption1").show();
+            });
             $("#fig2").click(function(){
                 $("#development2").show() && $("#fig2").hide() && $("#caption2").hide();
+            });
+            $("#development2").click(function(){
+                $("#development2").hide() && $("#fig2").show() && $("#caption2").show();
             });
             $("#fig3").click(function(){
                 $("#productmanagement2").show()&&  $("#fig3").hide() && $("#caption3").hide();{
                 }
-                
-            });
+            }); 
+            $("#productmanagement2").click(function(){
+                $("#productmanagement2").hide() && $("#fig3").show() && $("#caption3").show();
+            });  
         </script>
 
 
